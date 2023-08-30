@@ -5,7 +5,7 @@
 ### Para que puedas clonar el sitio:
 
 ```
-git clone https://github.com/SigelCr/React-con-c.r.a..git
+git clone https://github.com/gianmelacode/EntregaFinalMelaNahuel.git
 ```
 
 ## Las librerias que se usaron:
