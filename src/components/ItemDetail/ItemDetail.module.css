@@ -1,0 +1,76 @@
+.contenedor {
+  text-align: center;
+  opacity: 0.9;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.imgCard {
+  width: 40%;
+  min-width: 250px;
+  max-height: 280px;
+  margin: 20px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.imgCardPlaystation {
+  width: 40%;
+  min-width: 250px;
+  max-height: 280px;
+  margin: 20px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+  object-fit: contain;
+  border: 5px solid red;
+}
+
+.titulos {
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  margin: 15px;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+.precio {
+  font-weight: 900;
+  margin: 10px;
+  color: rgb(24, 23, 23);
+  margin: 10px;
+}
+.descripcion {
+  font-size: 15px;
+  width: 85%;
+  margin: auto;
+}
+.boton {
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px dashed black;
+}
+
+.boton:hover {
+  color: rgba(0, 0, 0, 0.756);
+  cursor: pointer;
+}
+
+.contador {
+  background-color: rgba(0, 0, 0, 0.42);
+  border: 1px solid red;
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .contenedor {
+    display: block;
+  }
+}

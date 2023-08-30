@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.containerCard {
+  width: 300px;
+  height: 420px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(36, 33, 33);
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.2s ease-in-out;
+}
+.containerCard:hover {
+  box-shadow: 8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  transition: 0.2s;
+  transform: translateY(-8px);
+}
+
+.containerCard:not(:hover) {
+  transform: translateY(0);
+  transition: 0.5s;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.imgCard {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+}
+
+.description {
+  font-size: 12px;
+  color: rgb(223, 215, 215);
+  padding: 5px;
+  margin: 5px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  width: 65px;
+}
+
+.btn button {
+  width: fit-content;
+  min-width: 70px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 20px -20px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out 0ms;
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+  color: wheat;
+  position: relative;
+  top: 10px;
+  right: 0px;
+}
+.btn button:hover {
+  box-shadow: 0px 0px 20px -18px;
+}
+.btn button:active {
+  transform: scale(0.95);
+}
+
+.titulos {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Press Start 2P", cursive;
+  font-weight: 100;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .titulos {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

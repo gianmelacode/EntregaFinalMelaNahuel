@@ -1,0 +1,75 @@
+/*Css del NavBar*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containerNavbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  z-index: 120;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  padding: 10px;
+
+  font-weight: bold;
+  margin: auto;
+}
+
+.navbar a {
+  padding: 10px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+.navbar a:hover {
+  color: rgba(255, 255, 255, 0.425);
+}
+
+.logotipo {
+  width: 100px;
+  height: 100px;
+}
+
+.borde {
+  border: 1px solid red;
+}
+.burguer {
+  display: none;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .burguer {
+    display: block;
+  }
+  .carrito {
+    display: none;
+  }
+  .navbar {
+    display: none;
+    font-size: 10px;
+  }
+  .navbarMobile {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .navbarMobile a {
+    margin: auto;
+    padding: 8px;
+  }
+}

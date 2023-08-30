@@ -1,0 +1,35 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  height: 90px;
+}
+
+.logotipo {
+  width: 90px;
+  height: 90%;
+  margin: 5px;
+}
+.listas {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 70px;
+}
+.listas a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .listas a {
+    font-size: 16px;
+  }
+}

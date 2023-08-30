@@ -1,0 +1,81 @@
+nintendo = [
+  {
+    id: 1,
+    title: "1942",
+    price: 25000,
+    stock: 1,
+    description:
+      "Experimenta la emoción de la Segunda Guerra Mundial en 1942, un juego de disparos aéreos desafiante y emocionante.",
+    category: "classic",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-1942_fvjqro.jpg",
+  },
+  {
+    id: 2,
+    title: "Road Fighter",
+    price: 30000,
+    stock: 1,
+    description:
+      "Road Fighter de NES. Evita obstáculos, lucha contra jefes de nivel y llega primero en cada etapa. ¡Un clásico imprescindible!",
+    category: "classic",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-roadfighter_vtqs9a.jpg",
+  },
+  {
+    id: 3,
+    title: "Highway Star",
+    price: 15000,
+    stock: 1,
+    description:
+      "Desafía la velocidad en Highway Star, el clásico juego de carreras retro de NES. ¡Acelera y gana la carrera!",
+    category: "classic",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916937/cartucho-highstart_fdi2hd.jpg",
+  },
+  {
+    id: 4,
+    title: "Double Dragon III",
+    price: 45000,
+    stock: 5,
+    description:
+      "Prepárate para la emoción de la lucha y la aventura global en Double Dragon 3 para NES",
+    category: "classic",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-dd3_znzkup.jpg",
+  },
+];
+
+genesis = [
+  {
+    id: 1,
+    title: "Nike 360",
+    price: 15000,
+    stock: 2,
+    description: "Estas son las mejores zapatillas",
+    category: "deportivas",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908695/cartucho-jurassicpark_exvtwo.jpg",
+  },
+  {
+    id: 2,
+    title: "wilson advance",
+    price: 14500,
+    stock: 5,
+    description: "Ultra livianas y cuentan con camara de aire",
+    category: "deportivas",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908695/cartucho-comiczone_jzj4nw.jpg",
+  },
+  {
+    id: 3,
+    title: "Puma",
+    price: 19000,
+    stock: 5,
+    description: "Las clasicas zapatillaspara cualquier momento del dia",
+    category: "urbanas",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908691/cartucho-roadrash_kknywu.jpg",
+  },
+  {
+    id: 4,
+    title: "Jaguar",
+    price: 17800,
+    stock: 5,
+    description: "Zapatillas de ultima generacion para el deporte",
+    category: "urbanas",
+    img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908689/cartucho-outrun_rtmald.jpg",
+  },
+];
